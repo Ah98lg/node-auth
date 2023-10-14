@@ -1,0 +1,18 @@
+{
+  "name": "study",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "node --test index.spec.js",
+    "test:dev":"node --test --watch index.spec.js",
+    "dev": "node --watch index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jsonwebtoken": "^9.0.2"
+  }
+}
